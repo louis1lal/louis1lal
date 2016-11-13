@@ -4,21 +4,56 @@ header{
   width: 800px;
   background-color: white;
 }
+html{
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  width: 1430px;
+
+}
+
+
+body{
+  background-image: url("../images/bg1.png");
+  margin: auto;
+  width: 1024px;
+  height: 800px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow:
+}
+
 #main{
+  padding-left: 10px;
+  padding-right: 10px;
   width: 800px;
   margin: auto;
-  min-height: 400px;
-  background-color: grey;
+  min-height: 800px;
+  background-color: black;
+  opacity: 0.7;
+
 }
-a{
-  margin-top: 10px;
-  margin-bottom: 10px;
+h2, h3, p{
+  color: white;
+}
+.lien{
+
   margin-left: 30px;
   margin-right: 30px;
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: bold;
+  font-size: 30px;
+  border: solid;
+  border-color: black;
+
 }
-body{
-  background-color: black;
+.lien:hover{
+  text-transform: capitalize;
+  border-color: white;
+}
+nav{
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
