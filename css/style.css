@@ -1,0 +1,17 @@
+@media (min-width: 1000px) {
+  #main{
+    margin: auto;
+    width: 800px;
+    background-color: blue;
+  }
+}
+@media (max-width: 1000px) {
+  #main{
+    margin: auto;
+    width: 600px;
+    background-color: red;
+  }
+}
+body{
+  background-color: yellow;
+}
