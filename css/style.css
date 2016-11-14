@@ -35,10 +35,17 @@ body{
 
 }
 #main:hover{
-  opacity: 0.8;
+  opacity: 0.9;
 }
 h2, h3, p{
   color: white;
+}
+img.mini{
+  float: left;
+}
+img.mini:hover{
+  border: solid white;
+
 }
 .lien{
 
