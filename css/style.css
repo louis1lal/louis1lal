@@ -48,6 +48,10 @@ img.mini:hover{
   border: solid white;
 
 }
+footer{
+  margin: auto;
+  width: 800px;
+}
 .lien{
 
   margin-left: 30px;
